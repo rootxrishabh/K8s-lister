@@ -2,6 +2,6 @@ FROM ubuntu
 
 WORKDIR /
 
-COPY ./linuxmain ./linuxmain
+COPY ./main ./main
 
-ENTRYPOINT [ "./linuxmain" ]
+ENTRYPOINT [ "./main" ]
